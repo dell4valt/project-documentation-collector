@@ -1,0 +1,6 @@
+__pycache__/*
+.vscode/*
+*tempCodeRunnerFile.py
+
+test_project/*
+test.py
