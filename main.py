@@ -74,7 +74,7 @@ def batch_doc_to_pdf(input_folder, output_folder):
             doc_to_pdf(doc_path, pdf_path)
         else:
             print(" Folder doen`t exist, creating new one.")
-            os.mkdir(Path(output_folder).resolve())
+            os.makedirs(Path(output_folder).resolve())
             doc_to_pdf(doc_path, pdf_path)
 
 
